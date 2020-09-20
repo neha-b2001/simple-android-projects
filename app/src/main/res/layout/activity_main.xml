@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src = "@drawable/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily = "sans-serif-light"
+        android:scaleType = "centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Ragi!"
+        android:textSize = "36sp"
+        android:textColor = "@android:color/white"
+        android:fontFamily = "sans-serif-light"
+        android:padding = "10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "From, Neha."
+        android:layout_alignParentBottom = "true"
+        android:layout_alignParentRight = "true"
+        android:textSize = "36sp"
+        android:textColor = "#FFFFFF"
+        android:fontFamily = "sans-serif-light"
+        android:padding = "10dp"/>
+
+</RelativeLayout>
